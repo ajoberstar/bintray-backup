@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-core",
+    "version": "4.1.0-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ujnrs3jnsnbzlel4mznd4lxz4m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "latest.release"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.1.0-rc.1.jar",
+          "url": "grgit-core-4.1.0-rc.1.jar",
+          "size": 270824,
+          "sha512": "917734d25dbce4a6aac3c2def59bac4a3c82f0d5c94b6406b4625ade3d4f1f1f5fdaa54ce9b99c5b4a60c45e80d919764b814a7c612231bca05c17969f1be85f",
+          "sha256": "3861f03f221220f46c1fa031ab9b67742a86c530fe87ddb0cf11161a37f685e7",
+          "sha1": "58c95a3c0ce26d0e3332ed840b0d4173f35a7639",
+          "md5": "32455cbe2bd6fbfb5189f3cd7d209c63"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "latest.release"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.1.0-rc.1.jar",
+          "url": "grgit-core-4.1.0-rc.1.jar",
+          "size": 270824,
+          "sha512": "917734d25dbce4a6aac3c2def59bac4a3c82f0d5c94b6406b4625ade3d4f1f1f5fdaa54ce9b99c5b4a60c45e80d919764b814a7c612231bca05c17969f1be85f",
+          "sha256": "3861f03f221220f46c1fa031ab9b67742a86c530fe87ddb0cf11161a37f685e7",
+          "sha1": "58c95a3c0ce26d0e3332ed840b0d4173f35a7639",
+          "md5": "32455cbe2bd6fbfb5189f3cd7d209c63"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-core-4.1.0-rc.1-sources.jar",
+          "url": "grgit-core-4.1.0-rc.1-sources.jar",
+          "size": 50407,
+          "sha512": "b31fe781235a7b149161e0b6997ed2961149a2e5efdff9ffb6feca74aeb3afde67b764b2b7c8c8a01bdabaac584bd55dc3ad353d329a97f3c1545ae27f55cbc8",
+          "sha256": "a0519600f0f61687a26d167fd1844e31671ffcb9d9fb5b3200e005f7d4887b43",
+          "sha1": "ec9c2e031a490179fecb88b75ab85b5f20c73960",
+          "md5": "fd60b39ca64c3d5437db1fa8617884a1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-core-4.1.0-rc.1-javadoc.jar",
+          "url": "grgit-core-4.1.0-rc.1-javadoc.jar",
+          "size": 46806,
+          "sha512": "66fe850d9aedb8a8506f0ed6dddc99d55a1a932929f96b914ff995d5e951b38a30de181647c6eab8a2bc2808fe5fbd28d89f216ba2fb615f47e394973997d920",
+          "sha256": "3c0866858ee544a0c223c8269bd60fa07d75cca0b4037387bfc5cabcf34c2afb",
+          "sha1": "0f291d75d75cce0cc0699212ac90480f38812f09",
+          "md5": "ca654d469160d7fb31191f784ddbfa6b"
+        }
+      ]
+    }
+  ]
+}

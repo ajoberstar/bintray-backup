@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar",
+    "module": "gradle-stutter",
+    "version": "0.6.0-rc.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "bfkdpw7sc5gqnidt62eysxwfpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gradle-stutter-0.6.0-rc.2.jar",
+          "url": "gradle-stutter-0.6.0-rc.2.jar",
+          "size": 15438,
+          "sha512": "2e561298c4d8db1d33df601e8715c1000f3b5a73f6fe91f1f8b2fbe767b3be588fb575b7613a0d387dd7b301104b9f9f3b0dc4979df220f4454ed9494c86d151",
+          "sha256": "354cd33649aedce115e269bdca3a949ca534c84fe65169c37726c77b513e1398",
+          "sha1": "63899422fa3aa78fabe1f6174aa42cfb696ce43e",
+          "md5": "1c1be3f5c3e1b0411d3ce06d36825046"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "latest.release"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-stutter-0.6.0-rc.2.jar",
+          "url": "gradle-stutter-0.6.0-rc.2.jar",
+          "size": 15438,
+          "sha512": "2e561298c4d8db1d33df601e8715c1000f3b5a73f6fe91f1f8b2fbe767b3be588fb575b7613a0d387dd7b301104b9f9f3b0dc4979df220f4454ed9494c86d151",
+          "sha256": "354cd33649aedce115e269bdca3a949ca534c84fe65169c37726c77b513e1398",
+          "sha1": "63899422fa3aa78fabe1f6174aa42cfb696ce43e",
+          "md5": "1c1be3f5c3e1b0411d3ce06d36825046"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-stutter-0.6.0-rc.2-sources.jar",
+          "url": "gradle-stutter-0.6.0-rc.2-sources.jar",
+          "size": 6202,
+          "sha512": "0a39f7bc494d3be05720cc6130fcbaee8db05da1bc2bddbdf16a253325214635a72a74e49d384c24e23bb829adbe5459281428780e29f5c80f9f601b86b7e0c0",
+          "sha256": "551b02bf2287e665916b744e4b52b9b2313259719f5a9c4b6c197d34eba7623b",
+          "sha1": "28244dd1cd70cf80091f76ee1054dc7a93348563",
+          "md5": "72dae8e04d5dc4c6d18ff1190276f1ea"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gradle-stutter-0.6.0-rc.2-javadoc.jar",
+          "url": "gradle-stutter-0.6.0-rc.2-javadoc.jar",
+          "size": 24235,
+          "sha512": "ea2783bc0c94083e4aabd6729a50e4c196f4a2741c39bacec60f29bc1b80093b7d09d8b87ad68cd3dc3eac16cf94b60af572b358b3ff2ec726d41fde6ce559df",
+          "sha256": "d52989d068f48b18bf0bbc48a564663824d43dab1bfd95ea55f7a4f1ae85edba",
+          "sha1": "6e4ddc11a11b98a7586b9efd3b45474944283f0a",
+          "md5": "d3880a53d2a536d6bfbeca05da81bddb"
+        }
+      ]
+    }
+  ]
+}

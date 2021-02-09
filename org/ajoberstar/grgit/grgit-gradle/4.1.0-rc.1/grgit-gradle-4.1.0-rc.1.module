@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-gradle",
+    "version": "4.1.0-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ujnrs3jnsnbzlel4mznd4lxz4m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.1.0-rc.1"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-gradle-4.1.0-rc.1.jar",
+          "url": "grgit-gradle-4.1.0-rc.1.jar",
+          "size": 7186,
+          "sha512": "34a8000161dafb9098501005417a82f3820d559f8eeff7957d7d8b55bfa020f28952759242f309c2e784ef73dd17f4dfc9547c21b516eb5bf13a83cb96e49922",
+          "sha256": "80461943dfc160f69a233a3c39ff2d2f7f4f1f79c0921189fdb930a58a77cc17",
+          "sha1": "bda505e149e37eea8830e1a6fa62213eeb4cf99c",
+          "md5": "cd4acff5fafb158d3925ba166b7ad81d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.1.0-rc.1"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-gradle-4.1.0-rc.1.jar",
+          "url": "grgit-gradle-4.1.0-rc.1.jar",
+          "size": 7186,
+          "sha512": "34a8000161dafb9098501005417a82f3820d559f8eeff7957d7d8b55bfa020f28952759242f309c2e784ef73dd17f4dfc9547c21b516eb5bf13a83cb96e49922",
+          "sha256": "80461943dfc160f69a233a3c39ff2d2f7f4f1f79c0921189fdb930a58a77cc17",
+          "sha1": "bda505e149e37eea8830e1a6fa62213eeb4cf99c",
+          "md5": "cd4acff5fafb158d3925ba166b7ad81d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-gradle-4.1.0-rc.1-sources.jar",
+          "url": "grgit-gradle-4.1.0-rc.1-sources.jar",
+          "size": 1801,
+          "sha512": "e78494756c613647aabc96bea2232f3c3d4c1849770ed59f44aee43188d12abb54e96c9c9e0e1f2aa2018a37df5af01761a02e3e91d6c301d72bd5af5299cdef",
+          "sha256": "07f2a82da964d660a7eefd56a8c9c7fbcfa2357e40b45f36159b61fe373ca940",
+          "sha1": "94b1d876193f9fc81276451e80699e629d5eb089",
+          "md5": "97d937fbf65c31bca36838bdd1553fc7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-gradle-4.1.0-rc.1-javadoc.jar",
+          "url": "grgit-gradle-4.1.0-rc.1-javadoc.jar",
+          "size": 261,
+          "sha512": "bd4f18bd6b8c17f384fc8566c2d4eb71fe0ae4ab2be6a0d29a52b59b4b2a989a2827d9ed87091cbee0ebfc521ef0ca6efe5ee1c8ef3a17ee06a2ee4452b8e034",
+          "sha256": "4d8bc76004b5b1b2364177466c1f428cf164f556902174306fb88ccefe329165",
+          "sha1": "1d9fd2bcfdeb386a7f47fd9ad39e723d6bb0ad88",
+          "md5": "864041f89af2d41e7d2e682343a589e3"
+        }
+      ]
+    }
+  ]
+}

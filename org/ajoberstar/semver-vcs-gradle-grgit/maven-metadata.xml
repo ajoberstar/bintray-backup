@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ajoberstar</groupId>
+  <artifactId>semver-vcs-gradle-grgit</artifactId>
+  <version>0.1.0-dev.62+34552cb</version>
+  <versioning>
+    <latest>0.1.0-dev.62+34552cb</latest>
+    <release>0.1.0-dev.62+34552cb</release>
+    <versions>
+      <version>0.1.0-milestone.1</version>
+      <version>0.1.0</version>
+      <version>0.1.0-dev.62+34552cb</version>
+    </versions>
+    <lastUpdated>20170103090317</lastUpdated>
+  </versioning>
+</metadata>

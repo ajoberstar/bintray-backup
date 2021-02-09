@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-core",
+    "version": "4.0.2-rc.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "67vkjhelprf7bp3x3f36zomzdy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.7.0.202003110725-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.0.2-rc.2.jar",
+          "url": "grgit-core-4.0.2-rc.2.jar",
+          "size": 256261,
+          "sha512": "d806b897718aff09e528cbd185cdb0d32de6958408c10e0b447030841b6ba2de76b5b461451690892441d8cc2be340b3416832011bda85a86c91f79a97c17461",
+          "sha256": "64275fcd77336c3bd55c6004a37e9f7c703e6e14e9d04ed07d732fac11256e9b",
+          "sha1": "080e2183d2c2eb68d42ed6639d44246579ef23f1",
+          "md5": "0580ecacb87b955632387122d3b964ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.7.0.202003110725-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.0.2-rc.2.jar",
+          "url": "grgit-core-4.0.2-rc.2.jar",
+          "size": 256261,
+          "sha512": "d806b897718aff09e528cbd185cdb0d32de6958408c10e0b447030841b6ba2de76b5b461451690892441d8cc2be340b3416832011bda85a86c91f79a97c17461",
+          "sha256": "64275fcd77336c3bd55c6004a37e9f7c703e6e14e9d04ed07d732fac11256e9b",
+          "sha1": "080e2183d2c2eb68d42ed6639d44246579ef23f1",
+          "md5": "0580ecacb87b955632387122d3b964ce"
+        }
+      ]
+    }
+  ]
+}

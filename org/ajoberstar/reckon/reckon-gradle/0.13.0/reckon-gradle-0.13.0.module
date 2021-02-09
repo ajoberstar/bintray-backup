@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.reckon",
+    "module": "reckon-gradle",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ym5eplvvhfezffqj62mw7dzfvi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.reckon",
+          "module": "reckon-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-gradle",
+          "version": {
+            "requires": "[4.0.0,5.0.0)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reckon-gradle-0.13.0.jar",
+          "url": "reckon-gradle-0.13.0.jar",
+          "size": 8002,
+          "sha512": "c104894e15372897f2f6d173f13e7c24f822cb38665d66daa48af7f24d9b915b745fc882b10e319ca089ac6fff1ce4cc423a0765e6c75513fa31e41de4b34dfd",
+          "sha256": "dc0cea27a6414a9114087dbd13a02c9f3ab5fefc595be83e041b4c828bcd8863",
+          "sha1": "4fdce5abfb97501cc07b08c0c001d4dc75a4b47c",
+          "md5": "9d777f3a98e439b7f26bf82df3a8645e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "[5.0,6.0)"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "latest.release"
+          }
+        },
+        {
+          "group": "org.ajoberstar.reckon",
+          "module": "reckon-core",
+          "version": {
+            "requires": "0.13.0"
+          }
+        },
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-gradle",
+          "version": {
+            "requires": "[4.0.0,5.0.0)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reckon-gradle-0.13.0.jar",
+          "url": "reckon-gradle-0.13.0.jar",
+          "size": 8002,
+          "sha512": "c104894e15372897f2f6d173f13e7c24f822cb38665d66daa48af7f24d9b915b745fc882b10e319ca089ac6fff1ce4cc423a0765e6c75513fa31e41de4b34dfd",
+          "sha256": "dc0cea27a6414a9114087dbd13a02c9f3ab5fefc595be83e041b4c828bcd8863",
+          "sha1": "4fdce5abfb97501cc07b08c0c001d4dc75a4b47c",
+          "md5": "9d777f3a98e439b7f26bf82df3a8645e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reckon-gradle-0.13.0-sources.jar",
+          "url": "reckon-gradle-0.13.0-sources.jar",
+          "size": 3362,
+          "sha512": "75cff9fc8ffc1869b187458e72bd30cdeb97efd89fa0a82ceb49320a7299473efbd290878d99cc367752b9f7c2ddd7ad553bcb8681acd488e5b2639b90802818",
+          "sha256": "e8dd9049d50d8b59bc28f56be667935c96868fc9dab9a573a000a689454750c1",
+          "sha1": "783c9366290c3f5406bbc95c97fdb0ed71f7ec43",
+          "md5": "4d20916ed266a2ae5a2fadacd5ad02f7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reckon-gradle-0.13.0-javadoc.jar",
+          "url": "reckon-gradle-0.13.0-javadoc.jar",
+          "size": 22588,
+          "sha512": "5e433f8b9fd98998b7c7ba1eee164ca3f1f5454c6d47ce4abcf22e12f04e9434718abd1245c3e860eee9e50635f3cd78eaa71e7dd4d83cf6747f9ae2c2e851d8",
+          "sha256": "c38239626490da8ae0bae988f29a3629c43f40d0faaf5f3d1072187497bab46c",
+          "sha1": "275e3d0bebf5019b059bddc44973a30d8f9a34ce",
+          "md5": "c3f6294a6cc04b41d1f8103cf688f3a4"
+        }
+      ]
+    }
+  ]
+}

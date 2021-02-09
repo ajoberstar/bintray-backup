@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.reckon",
+    "module": "reckon-core",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ym5eplvvhfezffqj62mw7dzfvi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "[5.0,6.0)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reckon-core-0.13.0.jar",
+          "url": "reckon-core-0.13.0.jar",
+          "size": 24337,
+          "sha512": "aae74dcbb8b6249a02ced2e3d3fb8d0248f25ba40094bfd1dafdc46f3c901183f2d47e0c5f6401dab942da13f6effda2025dbd3c962cdc631021add21f7f66b6",
+          "sha256": "a216b01d5caed75c518272c4d6ffce8988849a9c9a010f29c2976e75b97a8647",
+          "sha1": "c00a64504fed0c2516958aadae6cab61b9db7451",
+          "md5": "c7684f30f3c596ef142e2d09354c3448"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "[1.7.25,1.8.0-alpha)"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "[3.5,4.0)"
+          }
+        },
+        {
+          "group": "com.github.zafarkhaja",
+          "module": "java-semver",
+          "version": {
+            "requires": "[0.9.0,)"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "[5.0,6.0)"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "reckon-core-0.13.0.jar",
+          "url": "reckon-core-0.13.0.jar",
+          "size": 24337,
+          "sha512": "aae74dcbb8b6249a02ced2e3d3fb8d0248f25ba40094bfd1dafdc46f3c901183f2d47e0c5f6401dab942da13f6effda2025dbd3c962cdc631021add21f7f66b6",
+          "sha256": "a216b01d5caed75c518272c4d6ffce8988849a9c9a010f29c2976e75b97a8647",
+          "sha1": "c00a64504fed0c2516958aadae6cab61b9db7451",
+          "md5": "c7684f30f3c596ef142e2d09354c3448"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reckon-core-0.13.0-sources.jar",
+          "url": "reckon-core-0.13.0-sources.jar",
+          "size": 10859,
+          "sha512": "7de4a38e414349ea777c10c2a6d449bf90868e00a642946b103dd60f23ee160976d60506f4ecf193061882bc5d1fa18513af5afd3eb89b0c63b18593ad31c566",
+          "sha256": "426be35501c7be57df0dc9926f8ba419b27b5e0e13f5e13d3a6dee76d8f072c0",
+          "sha1": "82f726e426dec42a1b647752ec56d59b63e9781b",
+          "md5": "ad44f699f09c419d7b1c259687f07182"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reckon-core-0.13.0-javadoc.jar",
+          "url": "reckon-core-0.13.0-javadoc.jar",
+          "size": 36730,
+          "sha512": "c694f19d8fd2602d080cf5e1f94e767fe2a286311f3b0ef6174232fe8e5c7982a7a6a30ff65561560955b6171ee92dcd1df3d14c3e01aee1af55939dda6805fd",
+          "sha256": "79acdca0680371450c2fa1effdbe650ece78fe8a3d6e3d2071c053dc284e5b3b",
+          "sha1": "0ae899586ca7f15200f3adf46af8d488fc1155fc",
+          "md5": "9c526e93b04f218c169e029a81bfab32"
+        }
+      ]
+    }
+  ]
+}

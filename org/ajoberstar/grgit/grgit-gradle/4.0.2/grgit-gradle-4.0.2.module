@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-gradle",
+    "version": "4.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "ngldod3mjzcircqsulpbmpeo3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.0.2"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-gradle-4.0.2.jar",
+          "url": "grgit-gradle-4.0.2.jar",
+          "size": 7186,
+          "sha512": "040f04c8167893cff556a722d5912b5b006a6a404209f9c651a7893e8cb1bfaffea07bf38e8673e489689a54a444fc2d777f4208ddf1771fb87d4b2ca78cc40d",
+          "sha256": "d9d99250f577563b16a1f0d151640890f78e6a74ba260cdb578dbd71b7bc8113",
+          "sha1": "0a79c14bf6c338bcae4cc8b74a2f9e54bda3e48b",
+          "md5": "b5e67067150d6130ab25cf8c55506408"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.0.2"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-gradle-4.0.2.jar",
+          "url": "grgit-gradle-4.0.2.jar",
+          "size": 7186,
+          "sha512": "040f04c8167893cff556a722d5912b5b006a6a404209f9c651a7893e8cb1bfaffea07bf38e8673e489689a54a444fc2d777f4208ddf1771fb87d4b2ca78cc40d",
+          "sha256": "d9d99250f577563b16a1f0d151640890f78e6a74ba260cdb578dbd71b7bc8113",
+          "sha1": "0a79c14bf6c338bcae4cc8b74a2f9e54bda3e48b",
+          "md5": "b5e67067150d6130ab25cf8c55506408"
+        }
+      ]
+    }
+  ]
+}

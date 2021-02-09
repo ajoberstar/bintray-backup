@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-core",
+    "version": "4.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "ngldod3mjzcircqsulpbmpeo3m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.7.0.202003110725-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.0.2.jar",
+          "url": "grgit-core-4.0.2.jar",
+          "size": 256261,
+          "sha512": "fa5d144262665607b3f1bba079432df05d47f6aa1a4fd5f79a62fdf51faf3af7a1e35d2fa0cb5a12781122afce2b5f287a8feb3b5894deaa42664d3ebaaa2feb",
+          "sha256": "8bec475a692c441e47b87257372ea2d5db5617b3f64c6e552fbbdf536f2c1088",
+          "sha1": "df80472896cc2c44d56055e4e0163cde344e92df",
+          "md5": "f580b7aee78470d442906a441b834015"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.7.0.202003110725-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.0.2.jar",
+          "url": "grgit-core-4.0.2.jar",
+          "size": 256261,
+          "sha512": "fa5d144262665607b3f1bba079432df05d47f6aa1a4fd5f79a62fdf51faf3af7a1e35d2fa0cb5a12781122afce2b5f287a8feb3b5894deaa42664d3ebaaa2feb",
+          "sha256": "8bec475a692c441e47b87257372ea2d5db5617b3f64c6e552fbbdf536f2c1088",
+          "sha1": "df80472896cc2c44d56055e4e0163cde344e92df",
+          "md5": "f580b7aee78470d442906a441b834015"
+        }
+      ]
+    }
+  ]
+}

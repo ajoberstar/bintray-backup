@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar",
+    "module": "gradle-git-publish",
+    "version": "3.0.0-rc.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "qcpy2bjmozbifoo26fzf7ywlwy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-git-publish-3.0.0-rc.1.jar",
+          "url": "gradle-git-publish-3.0.0-rc.1.jar",
+          "size": 18016,
+          "sha512": "7147ad15080b5ab234f60bd45195f8b46ddf249058ebb230692cf79bb7a2b7d5f505ff4a91e9c1dd3cdc97ceb5d0ea3cf4aa28d5f00a5a693bcaa308c30539d8",
+          "sha256": "ca5ed57f06a5e46de199e4398613eded2eddc8135497623a77820043981d181d",
+          "sha1": "22e435f1befbc299461855453361a6091432de36",
+          "md5": "d1128b76765f93b422ef8e31fee75c26"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ajoberstar.grgit",
+          "module": "grgit-core",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.codehaus.groovy",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-git-publish-3.0.0-rc.1.jar",
+          "url": "gradle-git-publish-3.0.0-rc.1.jar",
+          "size": 18016,
+          "sha512": "7147ad15080b5ab234f60bd45195f8b46ddf249058ebb230692cf79bb7a2b7d5f505ff4a91e9c1dd3cdc97ceb5d0ea3cf4aa28d5f00a5a693bcaa308c30539d8",
+          "sha256": "ca5ed57f06a5e46de199e4398613eded2eddc8135497623a77820043981d181d",
+          "sha1": "22e435f1befbc299461855453361a6091432de36",
+          "md5": "d1128b76765f93b422ef8e31fee75c26"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ajoberstar</groupId>
+  <artifactId>gradle-ajoberstar</artifactId>
+  <version>0.1.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.ajoberstar</groupId>
+      <artifactId>gradle-git</artifactId>
+      <version>0.6.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ajoberstar</groupId>
+      <artifactId>gradle-imports</artifactId>
+      <version>0.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>nl.javadude.gradle.plugins</groupId>
+      <artifactId>license-gradle-plugin</artifactId>
+      <version>0.7.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jfrog.bintray.gradle</groupId>
+      <artifactId>gradle-bintray-plugin</artifactId>
+      <version>0.4-fork+2014.03.28.05.40.09</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>Gradle Ajoberstar Plugins</name>
+  <description>A Gradle plugin collecting standard config I use in my projects.</description>
+  <url>http://github.com/ajoberstar/gradle-ajoberstar</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ajoberstar</id>
+      <name>Andrew Oberstar</name>
+      <email>andrew@ajoberstar.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>git://github.com/ajoberstar/gradle-ajoberstar.git</connection>
+    <developerConnection>git@github.com:ajoberstar/gradle-ajoberstar.git</developerConnection>
+    <url>http://github.com/ajoberstar/gradle-ajoberstar</url>
+  </scm>
+</project>

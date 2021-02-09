@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ajoberstar.reckon</groupId>
+  <artifactId>reckon-gradle</artifactId>
+  <version>0.5.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.ajoberstar.reckon</groupId>
+      <artifactId>reckon-core</artifactId>
+      <version>0.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit</artifactId>
+      <version>4.10.0.201712302008-r</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ajoberstar</groupId>
+      <artifactId>grgit</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>24.1-jre</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.zafarkhaja</groupId>
+      <artifactId>java-semver</artifactId>
+      <version>0.9.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>reckon-gradle</name>
+  <description/>
+</project>
