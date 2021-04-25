@@ -11,6 +11,6 @@ From Gradle, specify the repository as:
 ```
 maven {
   name = 'ajoberstar-backup'
-  url = 'https://ajoberstar.github.io/bintray-backup/'
+  url = 'https://ajoberstar.org/bintray-backup/'
 }
 ```
